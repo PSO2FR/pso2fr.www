@@ -5,8 +5,12 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background: url("../../img/random_bg_01.png") no-repeat fixed;
+    background: url("../../img/ngs_trailer.jpg") no-repeat fixed;
     background-position: center;
     background-size: cover;
     background-color: black;
@@ -23,6 +27,8 @@ a {
 nav {
     background-color: $blackBg;
     text-align: center;
+    position: sticky;
+    top: 0px;
 
     a {
         display: inline-block;
@@ -36,7 +42,7 @@ nav {
         }
 
         &:nth-of-type(n+2) {
-            margin-left: 1em;
+            // margin-left: .5em;
 
             &.icon:nth-of-type(n+2) {
                 margin-left: 0;
@@ -55,7 +61,10 @@ section {
     & > h1:first-child,
     & > h2:first-child,
     & > h3:first-child {
-        margin-top: 0;
+        // margin-top: 0;
+        // Hack for sticky header & scroll to anchor (full CSS solution)
+        margin-top: -2em;
+        padding-top: 2em;
     }
 
     &:nth-of-type(n+2) {
@@ -78,7 +87,9 @@ footer {
 img.main-logo {
     margin: 15px auto;
     display: block;
+    height: 250px;
 }
 
 @import "news";
 @import "discord";
+@import "icons";
