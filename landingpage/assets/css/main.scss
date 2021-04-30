@@ -1,0 +1,98 @@
+@import "theme_main";
+@import "fonts";
+
+* {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url("../../img/ngs_trailer.jpg") no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+a {
+    color: white;
+
+    &:visited { color: white; }
+}
+
+nav {
+    background-color: $blackBg;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+
+    a {
+        display: inline-block;
+        padding: 5px;
+        text-decoration: none;
+
+        &:hover {
+            // Too fancy ?
+            transition: color .6s ease;
+            color: lightcoral;
+        }
+
+        &:nth-of-type(n+2) {
+            // margin-left: .5em;
+
+            &.icon:nth-of-type(n+2) {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 4px;
+    background: $blackBg;
+
+    & > h1:first-child,
+    & > h2:first-child,
+    & > h3:first-child {
+        // margin-top: 0;
+        // Hack for sticky header & scroll to anchor (full CSS solution)
+        margin-top: -2em;
+        padding-top: 2em;
+    }
+
+    &:nth-of-type(n+2) {
+        margin-top: 15px;
+    }
+}
+
+footer {
+    max-width: 1000px;
+    margin: 35px auto 0px auto;
+    padding: 15px 15px 15px;
+    border-radius: 4px;
+    background: $blackBg;
+
+    div.copyright {
+    }
+}
+
+img.main-logo {
+    margin: 15px auto 25px;
+    display: block;
+    // max-height: 250px;
+    max-width: 1000px;
+    width: 100%;
+    // padding: 0 15px;
+}
+
+@import "news";
+@import "discord";
+@import "icons";

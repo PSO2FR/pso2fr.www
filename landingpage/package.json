@@ -1,0 +1,24 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "a",
+    "watch": "sass --watch assets/css:assets/dist/css",
+    "build": "sass --style compressed --no-source-map assets/css:assets/dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PSO2FR/pso2fr.www.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PSO2FR/pso2fr.www/issues"
+  },
+  "homepage": "https://github.com/PSO2FR/pso2fr.www#readme",
+  "devDependencies": {
+    "sass": "^1.32.11"
+  }
+}
