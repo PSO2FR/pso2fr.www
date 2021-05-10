@@ -98,35 +98,43 @@ img.main-logo {
     // padding: 0 15px;
 }
 
-a.blog-button,
-a.discord-button {
-    display: inline-block;
-    padding: 10px 15px 10px;
-    border-radius: 4px;
-    text-decoration: none;
-    vertical-align: top;
+div.portal {
+    display: flex;
+    flex-wrap: wrap;
 
-    &.center {
+    a.blog-button,
+    a.discord-button {
         display: block;
-        margin: 5px auto;
-        width: 220px;
-        text-align: center;
+        padding: 10px 15px 10px;
+        border-radius: 4px;
+        text-decoration: none;
+
+        &.center {
+            display: block;
+            margin: 5px auto;
+            width: 220px;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin-top: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 50px;
+        }
+
+        p {
+            margin: 0px;
+        }
     }
 
-    img {
-        display: block;
-        height: 2em;
-        margin-top: 5px;
-        margin-left: auto;
-        margin-right: auto;
+    a.blog-button {
+        background-color: #1c4fc4;
     }
-}
-
-a.blog-button {
-    background-color: #1c4fc4;
-}
-a.discord-button {
-    background-color: #7289da;
+    a.discord-button {
+        background-color: #7289da;
+    }
 }
 
 @media only screen and (max-width: 1300px) {
