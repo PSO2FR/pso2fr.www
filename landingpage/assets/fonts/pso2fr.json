@@ -35,7 +35,10 @@
           "ligatures": "newspaper, news",
           "name": "newspaper",
           "id": 4,
-          "order": 0
+          "order": 14,
+          "prevSize": 32,
+          "code": 59659,
+          "tempChar": ""
         },
         {
           "ligatures": "pencil, write",
@@ -197,7 +200,10 @@
           "ligatures": "book, read",
           "name": "book",
           "id": 31,
-          "order": 0
+          "order": 15,
+          "prevSize": 32,
+          "code": 59679,
+          "tempChar": ""
         },
         {
           "ligatures": "books, library",
@@ -17300,7 +17306,7 @@
           "prevSize": 32,
           "code": 59648,
           "name": "discord",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 199,
@@ -17452,7 +17458,7 @@
           "prevSize": 32,
           "code": 59649,
           "name": "epicgames",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 236,
@@ -17692,7 +17698,7 @@
           "prevSize": 32,
           "code": 59650,
           "name": "github",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 295,
@@ -18952,7 +18958,7 @@
           "prevSize": 32,
           "code": 59651,
           "name": "playstation",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 609,
@@ -19308,7 +19314,7 @@
           "prevSize": 32,
           "code": 59652,
           "name": "sega",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 697,
@@ -19576,7 +19582,7 @@
           "prevSize": 32,
           "code": 59653,
           "name": "steam",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 763,
@@ -19852,7 +19858,7 @@
           "prevSize": 32,
           "code": 59654,
           "name": "twitch",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 831,
@@ -19860,7 +19866,7 @@
           "prevSize": 32,
           "code": 59655,
           "name": "twitter",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 832,
@@ -20088,7 +20094,7 @@
           "prevSize": 32,
           "code": 59656,
           "name": "windows",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 888,
@@ -20152,7 +20158,7 @@
           "prevSize": 32,
           "code": 59657,
           "name": "xbox",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 903,
@@ -20228,7 +20234,7 @@
           "prevSize": 32,
           "code": 59658,
           "name": "youtube",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 921,

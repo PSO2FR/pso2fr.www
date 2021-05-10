@@ -49,6 +49,11 @@ nav {
                 margin-left: 0;
             }
         }
+
+        [class^="icon-"],
+        [class*=" icon-"] {
+            margin-right: 5px;
+        }
     }
 }
 
