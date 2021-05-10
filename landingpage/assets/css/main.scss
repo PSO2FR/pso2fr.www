@@ -137,15 +137,6 @@ div.portal {
     }
 }
 
-@media only screen and (max-width: 1300px) {
-    nav {
-        padding: 15px;
-    }
-    main {
-        margin: 20px 5px;
-    }
-}
-
 @import "news";
 @import "discord";
 @import "icons";
