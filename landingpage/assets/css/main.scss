@@ -103,6 +103,7 @@ div.portal {
     flex-wrap: wrap;
 
     a.blog-button,
+    a.wiki-button,
     a.discord-button {
         display: block;
         padding: 10px 15px 10px;
@@ -130,6 +131,9 @@ div.portal {
     }
 
     a.blog-button {
+        background-color: #1c4fc4;
+    }
+    a.wiki-button {
         background-color: #1c4fc4;
     }
     a.discord-button {
